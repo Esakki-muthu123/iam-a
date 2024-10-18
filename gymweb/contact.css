@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(3, 3, 43);
+    position: static;
+    top: 0;
+
+}
+
+nav h1 {
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 40px;
+
+}
+
+ul a {
+    text-decoration: none;
+    padding: 40px;
+    color: black;
+    font-size: 20px;
+    color: white;
+}
+
+ul a:hover {
+    color: rgb(36, 218, 36);
+}
+
+nav button a {
+    text-decoration: none;
+    color: black;
+    color: white;
+    font-weight: bold;
+
+
+}
+
+nav button {
+    width: 150px;
+    background-color: rgb(36, 218, 36);
+    border-radius: 20px;
+    border: none;
+    height: 40px;
+    box-shadow: 0 0 5px rgb(36, 218, 36), 0 0 25px rgb(36, 218, 36);
+    cursor: pointer;
+    margin-top: 35px;
+}
+
+nav button:hover {
+    background-color: white;
+
+}
+
+button a:hover {
+    color: rgb(36, 218, 36);
+}
+
+.contactpage {
+    color: white;
+    height: 400px;
+    background-image: url(gym1.jpg);
+    background-size: cover;
+}
+
+.contactpage>div h1 {
+    font-size: 60px;
+    padding: 100px 0 0 450px;
+}
+
+.contactpage>div>div a {
+    text-decoration: none;
+    color: white;
+}
+
+.contactpage>div>div {
+    display: flex;
+    gap: 1rem;
+    font-size: 30px;
+    padding: 30px 0 0 520px;
+}
+
+.contactpage>div>div a:hover {
+    color: rgb(36, 218, 36);
+}
+
+.freecontact {
+    background-color: rgb(3, 3, 43);
+    color: wheat;
+
+}
+
+.freecontact h1 {
+    text-align: center;
+    padding: 70px;
+    word-spacing: 10px;
+    font-size: 50px;
+
+}
+
+.freecontact>div {
+
+    display: flex;
+    justify-content: space-around;
+    padding: 60px;
+}
+
+.freecontact>div>div {
+
+    width: 300px;
+    border-radius: 20px;
+    background-color: wheat;
+    color: rgb(3, 3, 43);
+    height: 300px;
+    box-shadow: 0 0 5px wheat, 0 0 25px wheat;
+
+}
+
+.freecontact>div>div i {
+    font-size: 30px;
+    padding: 60px 0 20px 150px;
+
+}
+
+.freecontact>div>div h2 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.freecontact>div>div p {
+    text-align: center;
+
+}
+
+.inputsec {
+    background-image: url(inputback.jpg);
+    background-size: cover;
+    padding: 70px;
+
+
+}
+
+.inputsec>div {
+    padding-left: 40px;
+    padding-top: 60px;
+}
+
+.inputsec>div input {
+    width: 500px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    margin-left: 50px;
+}
+
+.inputsec input {
+    height: 50px;
+    width: 1050px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    margin-bottom: 30px;
+    margin-left: 90px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid black;
+}
+
+.inputsec input:focus {
+    outline: none;
+}
+
+.inputsec button {
+    width: 180px;
+    height: 45px;
+    margin-left: 500px;
+    background-color: skyblue;
+    border: none;
+
+
+
+}
+
+.inputsec a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+.inputsec a:hover {
+    color: black;
+}
+
+
+.footer {
+    padding-top: 80px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    color: wheat;
+    padding-bottom: 50px;
+}
+
+.footer>div {
+    position: relative;
+}
+
+.footer p {
+    font-weight: bold;
+    line-height: 30px;
+    padding-top: 20px;
+
+}
+
+.footer p:hover {
+    color: rgb(36, 218, 36);
+    cursor: pointer;
+}
